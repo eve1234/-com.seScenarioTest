@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="483" started-at="2019-05-10T20:57:04Z" finished-at="2019-05-10T20:57:04Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.se.runner.TestRunner@7a36aefa]" name="feature" class="com.se.runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="483" started-at="2019-05-10T20:57:04Z" finished-at="2019-05-10T20:57:04Z">
+      <class name="com.se.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.se.runner.TestRunner@7a36aefa]" name="setUpClass" is-config="true" duration-ms="230" started-at="2019-05-10T20:57:04Z" finished-at="2019-05-10T20:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.se.runner.TestRunner@7a36aefa]" name="feature" duration-ms="49" started-at="2019-05-10T20:57:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-05-10T20:57:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Get posts details]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.se.runner.TestRunner@7a36aefa]" name="feature" duration-ms="21" started-at="2019-05-10T20:57:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-05-10T20:57:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[get users opeartions]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.se.runner.TestRunner@7a36aefa]" name="tearDownClass" is-config="true" duration-ms="38" started-at="2019-05-10T20:57:04Z" finished-at="2019-05-10T20:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.se.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
