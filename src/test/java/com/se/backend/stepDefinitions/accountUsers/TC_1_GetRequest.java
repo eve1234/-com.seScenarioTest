@@ -1,4 +1,4 @@
-package com.se.backend.accountUsers;
+package com.se.backend.stepDefinitions.accountUsers;
 
 import org.testng.annotations.Test;
 
